@@ -2,7 +2,7 @@ import React, { useEffect, useMemo, useState } from "react";
 
 interface Config { exactPoints: number; resultPoints: number; }
 interface Prediction { game: string; saju: string; joel: string; result: string; }
-interface AppState { players: string[]; config: Config; predictions: Prediction[]; }
+interface AppState { players: string[]; config: Config; predictions: Prediction[]; } 
 
 const LS_KEY = "arsenalPreds_v1";  
 
