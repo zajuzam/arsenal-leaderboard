@@ -4,7 +4,7 @@ interface Config { exactPoints: number; resultPoints: number; }
 interface Prediction { game: string; saju: string; joel: string; result: string; }
 interface AppState { players: string[]; config: Config; predictions: Prediction[]; }
 
-const LS_KEY = "arsenalPreds_v1";
+const LS_KEY = "arsenalPreds_v1";  
 
 export default function App() {
   // --- ESPN 2025–26 EPL fixtures (38) — names only, with (H)/(A) ---
